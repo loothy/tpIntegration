@@ -3,10 +3,7 @@ package jenkins;
 import java.util.ArrayList;
 import java.util.NoSuchElementException;
 
-/**
- * Class FIFO
- * Created by Alexis on 28/02/2019
- */
+
 
 public class FIFO {
 
