@@ -1,11 +1,13 @@
 package jenkins;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.assertEquals;
+
+
 
 public class JavaTest {
-	@Test
+	@org.junit.Test
 	public void JaprendJunit() {
-		TriTableau tritableau = new TriTableau();
-		tritableau.Calcule(10);
+		assertEquals(3,calcule.calculeNb(3));
+		
 	}
 }
